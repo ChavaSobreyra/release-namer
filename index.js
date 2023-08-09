@@ -8,11 +8,6 @@ try {
   });
 
   core.setOutput("RELEASE_NAME", releaseName);
-
-  console.log({ slug });
-
-  // determine if needs name prepended
-  // prepend name
 } catch (error) {
   core.setFailed(error.message);
 }
